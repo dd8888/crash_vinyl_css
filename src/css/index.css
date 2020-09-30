@@ -1,0 +1,80 @@
+.contenedor {
+  height: 500px;
+  width: 900px;
+  margin: auto;
+  position: relative;
+}
+.caratula {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  margin-top: -150px;
+  top: 50%;
+  background-color: red;
+  z-index: 1;
+  background-image: url(https://images-na.ssl-images-amazon.com/images/I/51c0HfMGfPL._SY400_.jpg);
+  background-size: cover;
+  box-shadow: 10px 15px 5px black;
+}
+
+.disco {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  margin-top: -125px;
+  top: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(250, 1, 1, 1) 20%,
+    rgba(0, 0, 0, 1) 0%
+  );
+  border-radius: 50%;
+  left: 200px;
+  z-index: 0;
+  overflow: hidden;
+  transition: transform 2s;
+  color: white;
+  transform: rotate(40deg);
+  box-shadow: 10px 15px 5px black;
+}
+
+.centro {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  margin: auto;
+  top: 50%;
+  position: relative;
+  margin-top: -10px;
+  border-radius: 50%;
+}
+.disco:hover {
+  transform: translate(-200px);
+}
+
+.disco span {
+  position: absolute;
+  bottom: 45%;
+  left: 50%;
+  width: 70px;
+  height: 150px;
+  margin-left: -35px;
+  line-height: 70px;
+  transform-origin: bottom center;
+}
+
+.v {
+  transform: rotate(75deg);
+}
+.i {
+  transform: rotate(50deg);
+}
+.n {
+  transform: rotate(25deg);
+}
+.y {
+  transform: rotate(0deg);
+}
+.l {
+  transform: rotate(-25deg);
+}
