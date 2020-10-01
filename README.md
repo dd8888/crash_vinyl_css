@@ -8,6 +8,4 @@ DAMN by Kendrick Lamar Vinyl made using HTML and CSS
 
 ## Author ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
 - **David Díaz** - _Developer_ - [dd8888](https://github.com/dd8888)
