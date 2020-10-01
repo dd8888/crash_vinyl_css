@@ -1,4 +1,4 @@
-DAMN Vinyl
+# DAMN Vinyl
 
 DAMN by Kendrick Lamar Vinyl made using HTML and CSS
 
