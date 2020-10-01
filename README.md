@@ -4,7 +4,7 @@ Crash Talk by Schoolboy Q Vinyl made using HTML and CSS
 
 ## Check it out 📦
 
-[Link](https://dd8888.github.io/damn_vinyl_css/)
+[Link](https://dd8888.github.io/crash_vinyl_css/)
 
 ## Author ✒️
 
