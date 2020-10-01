@@ -1,6 +1,6 @@
-# DAMN Vinyl
+# Crash Talk Vinyl
 
-DAMN by Kendrick Lamar Vinyl made using HTML and CSS
+Crash Talk by Schoolboy Q Vinyl made using HTML and CSS
 
 ## Check it out 📦
 
