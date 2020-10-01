@@ -1,0 +1,7 @@
+{
+    "plugins": {
+        "postcss-nesting":true,
+        "autoprefixer":true,
+        "postcss-clean":true,
+    }
+}
