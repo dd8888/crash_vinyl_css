@@ -1,20 +1,28 @@
+body {
+  background: #faa21d;
+}
 .contenedor {
   height: 500px;
   width: 900px;
   margin: auto;
   position: relative;
 }
+
 .caratula {
   height: 300px;
   width: 300px;
   position: absolute;
   margin-top: -150px;
   top: 50%;
+  left: 50%;
+  margin-left: -150px;
   background-color: red;
   z-index: 1;
   background-image: url(https://images-na.ssl-images-amazon.com/images/I/51c0HfMGfPL._SY400_.jpg);
   background-size: cover;
-  box-shadow: 10px 15px 5px black;
+  border: 10px solid white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
 }
 
 .disco {
@@ -23,19 +31,22 @@
   position: absolute;
   margin-top: -125px;
   top: 50%;
+
   background: radial-gradient(
     circle,
     rgba(250, 1, 1, 1) 20%,
     rgba(0, 0, 0, 1) 0%
   );
   border-radius: 50%;
-  left: 200px;
+  left: 500px;
   z-index: 0;
   overflow: hidden;
   transition: transform 2s;
   color: white;
   transform: rotate(40deg);
-  box-shadow: 10px 15px 5px black;
+  border: 10px solid white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+  animation: spin 3s infinite linear;
 }
 
 .centro {
@@ -47,9 +58,6 @@
   position: relative;
   margin-top: -10px;
   border-radius: 50%;
-}
-.disco:hover {
-  transform: translate(-200px);
 }
 
 .disco span {
@@ -77,4 +85,14 @@
 }
 .l {
   transform: rotate(-25deg);
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }

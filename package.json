@@ -5,15 +5,21 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url /switch_css"
+    "build": "parcel build src/index.html --public-url /damn_vinyl_css/ && gh-pages -d build",
+    "clean": "rm -rf dist build .cache"
   },
   "keywords": [],
   "author": "David",
   "license": "ISC",
   "devDependencies": {
-    "live-server": "^1.2.1",
     "parcel-bundler": "^1.12.4",
+    "postcss-clean": "^1.1.0",
+    "postcss-nesting": "^7.0.1",
+    "postcss-uncss": "^0.17.0",
     "stylelint": "^13.7.2",
     "stylelint-config-standard": "^20.0.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.8.6"
   }
 }
